@@ -68,11 +68,13 @@ function fightDragon() {
   console.log("Fighting dragon.");
 }
 
-function buyHealth() {
+if (gold >= 10) {
+  function buyHealth() {
   gold -= 10;
   health += 10;
   goldText.innerText = gold;
   healthText.innerText = health;
+  }
 }
 
 function buyWeapon() {
