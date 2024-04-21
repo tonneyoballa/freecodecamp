@@ -178,7 +178,7 @@ function dodge() {
 }
 
 function defeatMonster() {
-  gold += monsters[fighting].level * 6.7 + Math.floor() ;
+  gold +=  Math.floor(monsters[fighting].level * 6.7) ;
  
 }
 
