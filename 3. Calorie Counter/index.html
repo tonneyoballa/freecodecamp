@@ -11,41 +11,47 @@
       <h1>Calorie Counter</h1>
       <div class="container">
         <form id="calorie-counter">
-            <label for="budget">Budget</label>
-            <input id="budget" type="number" min="0" placeholder="Daily calorie budget" required/>
-            <fieldset id="breakfast">
-                <legend>Breakfast</legend>
-                <div class="input-container"></div>
-                <option value="fieldset">legend</option>
-            </fieldset>
-            <fieldset id="lunch">
-                <legend>Lunch</legend>
-                <div class="input-container"></div>
-                <option value="fieldset">legend</option>
-            </fieldset>
-            <fieldset id="dinner">
-                <legend>Dinner</legend>
-                <div class="input-container"></div>
-                <option value="fieldset">legend</option>
-            </fieldset>
-            <fieldset id="snacks">
-                <legend>Snacks</legend>
-                <div class="input-container"></div>
-                <option value="fieldset">legend</option>
-              </fieldset>
-            <fieldset id="exercise">
-                <legend>Exercise</legend>
-                <div class="input-container"></div>
-                <option value="fieldset">legend</option>
-            </fieldset>
-            <div class="controls">
-                <span>
-                    <label for="entry-dropdown">Add food or exercise:</label>
-                    <select name="options" id="entry-dropdown">
-                    </select>
-                    <button id="add-entry">Add Entry</button>
-                </span>
-            </div>
+          <label for="budget">Budget</label>
+          <input
+            type="number"
+            min="0"
+            id="budget"
+            placeholder="Daily calorie budget"
+            required
+          />
+          <fieldset id="breakfast">
+            <legend>Breakfast</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="lunch">
+            <legend>Lunch</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="dinner">
+            <legend>Dinner</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="snacks">
+            <legend>Snacks</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="exercise">
+            <legend>Exercise</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <div class="controls">
+            <span>
+              <label for="entry-dropdown">Add food or exercise:</label>
+              <select id="entry-dropdown" name="options">
+                <option value="breakfast" de>Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snacks">Snacks</option>
+                <option value="exercise">Exercise</option>
+              </select>
+              <button type="button" id="add-entry">Add Entry</button>
+            </span>
+          </div>
         </form>
       </div>
     </main>
