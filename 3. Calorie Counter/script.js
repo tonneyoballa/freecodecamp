@@ -9,7 +9,3 @@ let isError = false;
 function cleanInputString(str) {
   const regex = /hello/;
 }
-
-function cleanInputNumber(str) {
-  const regex = /hello/;
-}
