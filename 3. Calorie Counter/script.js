@@ -15,4 +15,9 @@ function isInvalidInput(str) {
   const regex = /\d+e\d+/i;
   return str.match(regex);
 }
-console.log(isInvalidInput("10"));
+
+function addEntry() {
+  entryDropdown = "#" + value ;
+  
+  
+}
