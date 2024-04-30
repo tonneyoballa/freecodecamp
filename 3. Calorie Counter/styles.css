@@ -23,11 +23,11 @@ h1 {
 .container{
   width: 90%;
   max-width: 680px;
- }
+}
   
-  h1,
-  .container,
-  .output {
+h1,
+.container,
+.output {
     margin: 20px auto;
   }
   
