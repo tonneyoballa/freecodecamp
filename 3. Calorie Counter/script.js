@@ -18,5 +18,5 @@ function isInvalidInput(str) {
 
 function addEntry() {
   entryDropdown = "#" + value ;
-  
+
 }
