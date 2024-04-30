@@ -34,3 +34,8 @@ addEntryButton.addEventListener('click', () => {
     output.innerText = 'Valid input';
   }
 });
+
+clearButton.addEventListener('click', () => {
+  entryDropdown.value = '';
+  output.innerText = '';
+});
