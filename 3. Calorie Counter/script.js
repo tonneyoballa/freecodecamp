@@ -43,7 +43,3 @@ clearButton.addEventListener('click', () => {
 budgetNumberInput.addEventListener('input', () => {
   calorieCounter.innerText = budgetNumberInput.value;
 });
-
-budgetNumberInput.addEventListener('input', () => {
-  calorieCounter.innerText = budgetNumberInput.value;
-});
