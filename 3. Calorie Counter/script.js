@@ -22,3 +22,15 @@ function addEntry() {
 }
 
 addEntryButton.addEventListener('click', () => {
+  const value = cleanInputString(entryDropdown.value);
+  if (isInvalidInput(value)) {
+    isError = true;
+  } else {
+    isError = false;
+  }
+  if (isError) {
+    output.innerText = 'Invalid input';
+  } else {
+    output.innerText = 'Valid input';
+  }
+});
