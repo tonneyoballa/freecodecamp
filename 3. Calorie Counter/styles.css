@@ -73,7 +73,7 @@ h1,
     display: none;
   }
   
-  .output span {
+.output span {
     font-weight: bold;
     font-size: 1.2em;
   }
