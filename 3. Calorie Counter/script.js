@@ -39,3 +39,7 @@ clearButton.addEventListener('click', () => {
   entryDropdown.value = '';
   output.innerText = '';
 });
+
+budgetNumberInput.addEventListener('input', () => {
+  calorieCounter.innerText = budgetNumberInput.value;
+});
