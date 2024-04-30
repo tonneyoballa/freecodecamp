@@ -20,10 +20,10 @@ h1 {
   text-align: center;
 }
   
-  .container {
-    width: 90%;
-    max-width: 680px;
-  }
+.container{
+  width: 90%;
+  max-width: 680px;
+ }
   
   h1,
   .container,
