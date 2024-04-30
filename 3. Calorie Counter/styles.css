@@ -63,7 +63,7 @@ h1,
     margin-bottom: 10px;
   }
   
-  .output {
+.output {
     border: 2px solid var(--light-grey);
     padding: 10px;
     text-align: center;
