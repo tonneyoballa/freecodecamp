@@ -20,6 +20,3 @@ function addEntry() {
   entryDropdown = "#" + value ;
 
 }
-
-addEntryButton.addEventListener('click', () => {
-  
