@@ -39,4 +39,3 @@ dateOptionsSelectElement.addEventListener("change", () => {
 
 
 
-
