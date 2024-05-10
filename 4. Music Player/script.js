@@ -77,3 +77,26 @@ const allSongs = [
     src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/chasing-that-feeling.mp3",
   },
 ];
+
+const audio = new Audio();
+let userData = {
+  songs: [...allSongs],
+  currentSong: null,
+  songCurrentTime: 0,
+};
+
+const printGreeting = () => {
+  console.log('Hello there!'); 
+}
+
+printGreeting();
+
+const printMessage = org => {
+  console.log(`${org} is awesome!`);
+}
+
+printMessage('freeCodeCamp');
+const addTwoNumbers = (num1, num2) => {
+  return num1 + num2;  
+}
+console.log(addTwoNumbers(3, 4));
