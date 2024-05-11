@@ -7,22 +7,28 @@ function getAverage(scores) {
   
     return sum / scores.length;
   }
+  
   function getGrade(score) {
-   if (score === 100){
-    grade = "A++"
-   } else if(score < (90 - 99)) {
-    grade = "A+"
-   }else if(score < (80 - 89)) {
-    grade = "B"
-   }else if(score < (70 - 79)) {
-    grade = "C"
-   }else if(score < (60 - 69)) {
-    grade = "D"
-   }else {
-    grade = "F"
-    {
+    if (score === 100) {
+      return "A++";
+    } else if (score >= 90) {
+      return "A";
+    } else if (score >= 80) {
+      return "B";
+    } else if (score >= 70) {
+      return "C";
+    } else if (score >= 60) {
+      return "D";
+    } else {
+      return "F";
+    }
   }
   
-  console.log(getGrade(96));
-  console.log(getGrade(82));
-  console.log(getGrade(56));
+  function hasPassingGrade(score) {
+    
+  }
+  
+  
+  console.log(hasPassingGrade(100));
+  console.log(hasPassingGrade(53));
+  console.log(hasPassingGrade(87));
