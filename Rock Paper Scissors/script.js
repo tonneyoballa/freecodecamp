@@ -21,3 +21,5 @@ function getRandomComputerResult() {
   
   console.log(getRoundResults("Rock"));
   console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
+
+  
