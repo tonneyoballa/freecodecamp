@@ -23,5 +23,3 @@ function getRandomComputerResult() {
   console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
 
 
-
-  
