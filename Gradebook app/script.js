@@ -36,14 +36,14 @@ function getAverage(scores) {
 
 
 
-
-
-
-
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
+
