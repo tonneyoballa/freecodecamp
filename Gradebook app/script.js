@@ -35,8 +35,8 @@ function getAverage(scores) {
 
 
 
+  // Output: "Your average score is 37. You got an F. Better luck next
 
-  
 
 
 
