@@ -55,4 +55,3 @@ function getAverage(scores) {
 
 
 
-
