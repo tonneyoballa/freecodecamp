@@ -45,5 +45,4 @@ function getAverage(scores) {
 
 
 
-
   
