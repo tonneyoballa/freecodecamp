@@ -4,8 +4,7 @@ function getAverage(scores) {
     for (const score of scores) {
       sum += score;
     }
-  
-    return sum / scores.length;
+      return sum / scores.length;
   }
   
   function getGrade(score) {
