@@ -6,7 +6,7 @@ function getAverage(scores) {
     }
       return sum / scores.length;
   }
-
+ 
   function getGrade(score) {
     if (score === 100) {
       return "A++";
